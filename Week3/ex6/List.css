@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f381;
+    margin: 20px;
+  }
+  
+  ol, ul {
+    margin-left: 20px;
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
