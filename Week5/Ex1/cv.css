@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(245, 230, 236);
+    color: black;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: 
+    
+    
+    
+    rgb(255, 212, 222);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 26px;
+    color: black;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: black;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.contact, .hobbies, .education, .experience, .skills {
+    padding: 10px;
+    background: #ecf0f1;
+    border-radius: 5px;
+}
+
+.contact a {
+    color: black;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+.job {
+    margin-bottom: 15px;
+}
+.container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px;
+}
+
