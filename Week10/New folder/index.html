@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Check Number</title>
+  </head>
+  <body>
+    <form action="#" id="main_form">
+      <input type="number" id="number1" />
+      <br />
+      <button type="button" onclick="checkNumber();">Check</button>
+    </form>
+
+    <p id="result"></p>
+
+    <!-- JavaScript -->
+    <script>
+      function checkNumber() {
+        var x = parseInt(document.getElementById("number1").value);
+        if (x % 2 === 0) {
+          document.getElementById("result").innerText = "The number is even.";
+        } else {
+          document.getElementById("result").innerText = "The number is odd.";
+        }
+      }
+    </script>
+  </body>
+</html>
